@@ -1,20 +1,101 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-icon name="arrow-back-circle-outline" class="back" routerLink="/"></ion-icon>
+        </ion-col>
+        <ion-col size="6" class="dashboard-heading">
+          <div class="main">
+            <h4>Dashback</h4>
+            <p>Merchant</p>
+          </div>
+        </ion-col>
+         </ion-row>
+         <div id="img">
+          <img src="../../assets/profile.svg" alt="">
+         </div>
+      <ion-row>
+        <ion-col size="8"></ion-col>
+        <ion-col size="4">
+          <h5>Hello, XYZ</h5>
+          <div class="edit">
+            <ion-button size="small" class="button1">edit profile</ion-button>&nbsp;&nbsp;&nbsp;
+            <ion-button size="small" class="button2">Activate QR</ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="icon-text"> 
+          <p>Connect with us on</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="icons"> 
+          <img src="../../assets/facebook.svg" class="icon" alt="" (click)="social('fb')">
+          <img src="../../assets/Instagram.svg" class="icon" alt="" (click)="social('insta')">
+          <img src="../../assets/whatsapp.svg" class="icon" alt="" (click)="social('whatsapp')">
+          <img src="../../assets/linkedin.svg" class="icon" alt="" (click)="social('linkedin')">
+          <img src="../../assets/telegram.svg" class="icon" alt="" (click)="social('telegram')">
+          <img src="../../assets/twitter.svg" class="icon" alt="" (click)="social('twitter')">
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+       <ion-col size="12">
+         <div class="list">
+         
+          <div class="list-item">
+          <p>  <img src="../../assets/merchant_icons/share.svg" alt=""> &nbsp; Share QR </p>
+          </div>
+          <div class="list-item" >
+      <p><img src="../../assets/merchant_icons/security_shield.svg" alt=""> &nbsp; Dashback Security Shield 
+        
+      </p>
+          </div>
+          <div class="list-item">
+          <p>  <img src="../../assets/merchant_icons/setting.svg" alt=""> &nbsp; Merchant Settings</p>
+            <p id="para1">Find all the settings elated to your merchant account here.</p>
+          </div>
+          <div class="list-item">
+            <p><img src="../../assets/merchant_icons/QR.svg" alt=""> &nbsp; Manage QRs</p>
+            <p id="para1">Tap to see your QR codes.</p>
+          </div>
+          <div class="list-item">
+         <p>   <img src="../../assets/merchant_icons/services.svg" alt=""> &nbsp; My Services</p>  
+            <p id="para1">Dashback card machines and more</p>
+          </div>
+          <div class="list-item">
+          <p>  <img src="../../assets/merchant_icons/orders.svg" alt=""> &nbsp; My Orders</p>
+            <p id="para1">Recharge Bills,OR,Devices & more</p>
+          </div>
+          <div class="list-item">
+         <p> <img src="../../assets/merchant_icons/attendence.svg" alt=""> &nbsp; Attendance</p>
+            <p id="para1">Attendance of your store staff</p>
+          </div>
+          <div class="list-item">
+         <p> <img src="../../assets/merchant_icons/manage_users.svg" alt=""> &nbsp; Manage Users</p>
+              
+            <p id="para1">App access to your store staff</p>
+          </div>
+          <div class="list-item">
+          <p>  <img src="../../assets/merchant_icons/reports.svg" alt=""> &nbsp; Reports</p>
+              
+            <p id="para1">Transactions,Settlement,Account reports</p>
+          </div>
+          <div class="list-item">
+         <p> <img src="../../assets/merchant_icons/help&support.svg" alt=""> &nbsp; Help & Support</p>
+              
+            <p id="para1">27*7 Merchant Support,your tickets,FAQs</p>
+          </div>
+          <div class="list-item">
+            <p class="log-out"  (click)="logout()"><img src="../../assets/logout.svg" alt=""> &nbsp; logout</p>
+          </div>
+         </div>
+       </ion-col>
+     </ion-row>
+    </ion-grid>
   </div>
-</ion-content>
+ </ion-content>

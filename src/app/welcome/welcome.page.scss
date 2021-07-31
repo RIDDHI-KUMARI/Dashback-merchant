@@ -1,0 +1,45 @@
+#container {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #37a7e6, #3d54ba);
+    color: #fff;
+    
+
+  h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 75px;
+    font-family: "s-bold", sans-serif;
+    color:#fff;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+    text-decoration-color: navy;
+    text-decoration-style: initial;
+    margin-left:-35px;
+    
+  }
+  p{
+      color:#fff;
+      font-size:20px;
+      font-style: italic;
+      padding-top:10px;
+      font-weight:normal;
+      font-family: "Times New Roman", Times, serif;
+      margin-left:-35px;
+      margin-top:-8px;
+  }
+  h6{
+    margin-top:120%;
+    margin-left:-20px;
+    font-weight:bold;
+    font-size:15px;
+  }
+#para1{
+  margin-left:-100px;
+  margin-top:-30px;
+}
+#para2{
+  margin-left:-100px;
+  margin-top:-90px;
+}
+}
