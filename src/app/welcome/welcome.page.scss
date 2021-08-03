@@ -11,18 +11,29 @@
     margin-top: 75px;
     font-family: "s-bold", sans-serif;
     color:#fff;
-    text-underline-offset: 10px;
+   /* text-underline-offset: 10px;
     text-decoration: underline;
     text-decoration-color: navy;
-    text-decoration-style: initial;
+    text-decoration-style: solid;*/
     margin-left:-35px;
-    
+   /* border-bottom: 1px solid black;
+    padding:5px 0;*/
   }
+ h5:after{
+  content: ""; 
+  display: block;
+  margin: 0 auto; 
+  width: 50%; 
+  padding-top: 5px; 
+  border-bottom: 1px solid black; 
+  margin-left: 1px;
+ }
+  
   p{
       color:#fff;
       font-size:20px;
       font-style: italic;
-      padding-top:10px;
+      padding-top:5px;
       font-weight:normal;
       font-family: "Times New Roman", Times, serif;
       margin-left:-35px;
@@ -30,16 +41,16 @@
   }
   h6{
     margin-top:120%;
-    margin-left:-20px;
+    margin-left:-15px;
     font-weight:bold;
     font-size:15px;
   }
 #para1{
-  margin-left:-100px;
+  margin-left:-130px;
   margin-top:-30px;
 }
 #para2{
-  margin-left:-100px;
-  margin-top:-90px;
+  margin-left:-130px;
+  margin-top:-110px;
 }
 }
