@@ -1,9 +1,13 @@
 
 
 #container {
-  min-height: 135vh;
+  min-height:120vh;
   background-image: linear-gradient(to right, #37a7e6, #3d54ba);
   color: #fff;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 100%;*/
    .back{
      margin-left:10px;
      color:indigo;
@@ -13,7 +17,7 @@
     font-weight: bold;
     font-size: 20px;
     font-family: "s-bold", sans-serif;
-    margin-left:-50px;
+    margin-left:100px;
     margin-top:-10px;
   }
   p{
@@ -25,13 +29,13 @@
 #img{
   height:75px;
   width:80px;
-  margin-left:10%;
-  margin-top:-20px;
+  margin-left:25%;
+  margin-top:-5px;
 }
     h5 {
-      margin-left:-30px;
-      font-size: 12px;
-      margin-top:-50px;
+      margin-left:-50px;
+      font-size: 20px;
+      margin-top:-70px;
       text-transform: capitalize;
       font-family: "s-semi-bold", sans-serif;
       
@@ -40,16 +44,16 @@
       display:flex;
       margin: 5px 0 10px;
     .button1{
-        font-size:5px;
+        font-size:10px;
         --background: #fff;
         color: #3d54ba;
-        margin-left:-30px;
+        margin-left:-60px;
         cursor: pointer;
         padding:0px;
         text-transform: none;
       }
       .button2{
-        font-size:5px;
+        font-size:10px;
         --background: #fff;
         color: #3d54ba;
         margin-left:-12px;
@@ -96,9 +100,9 @@
          margin-left:12px;
        }
       #para1{
-       margin-left:15%;
+       margin-left:10%;
        color:navy;
-       font-size:8px;
+       font-size:10px;
      }
     
       img {
@@ -109,4 +113,29 @@
       }
     }
   }
+  /*@media only screen and (max-width: 6000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+ @media screen and (max-width: 2800px) {
+    ion-content{
+      width: 100%;  
+    }
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }*/
+
 }
+  
+
